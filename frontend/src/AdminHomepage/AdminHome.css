@@ -1,0 +1,45 @@
+.table-header {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 10px;
+    font-weight: bold;
+    background-color: #e0e0e0;
+    border-bottom: 2px solid #ccc;
+    text-align: center;
+  }
+  
+  .classified {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    margin-bottom: 15px;
+    align-items: center;
+  }
+  
+  .classified > div {
+    padding: 8px;
+  }
+  
+  .classified > div:first-child {
+    grid-column: 1 / 2;
+    font-size: 18px;
+  }
+  
+  .classified > div:nth-child(2) {
+    grid-column: 2 / 3;
+  }
+  
+  .classified > div:nth-child(3) {
+    grid-column: 3 / 4;
+  }
+  
+  .classified Button {
+    grid-column: 4 / 5;
+    justify-self: center;
+  }
+  

@@ -1,0 +1,13 @@
+.navbar2{
+    height:100px;
+    width: 100%;
+    border: 2px solid black;
+    display:flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+  }
+  .navbar2:hover{
+    background-color: antiquewhite;
+  }

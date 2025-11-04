@@ -1,0 +1,78 @@
+/* Container for the entire page */
+.theentire {
+    background-color: #f0f4f8;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Form container styling */
+.Thefirst1 {
+    width: 100%;
+    max-width: 500px;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Hover effect for the form container */
+.Thefirst1:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.2);
+}
+
+/* Text and input field styling */
+.Thefirst1 h1 {
+    color: #3f51b5;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.TextField {
+    margin-bottom: 20px;
+}
+
+/* Button styling */
+.Button {
+    width: 100%;
+    background-color: #3f51b5;
+    color: white;
+    padding: 10px 0;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.Button:hover {
+    background-color: #303f9f;
+}
+
+/* Link styling */
+.Thefirst1 a {
+    display: block;
+    margin-top: 15px;
+    text-align: center;
+    color: #3f51b5;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+.Thefirst1 a:hover {
+    color: #303f9f;
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+    .Thefirst1 {
+        padding: 20px;
+        width: 90%;
+    }
+}
